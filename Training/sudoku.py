@@ -3,6 +3,9 @@ from curses import flash
 from operator import truediv
 
 
+
+
+
 def  find_empty(board):
     for i in range(len(board)):
         for j in range(len(board[0])):
